@@ -1,0 +1,84 @@
+<view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="selected">
+        <view class="select-title"><text>精选主题</text><text class="iconfont icon-gouwuche2"></text></view>
+        <view class="select-top">
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="http://image.lingshi.com/images/201705/thumb_img/12030_thumb_G_1495696877341.jpg"></image>
+                </navigator>
+            </view>
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="http://image.lingshi.com/images/201705/thumb_img/12012_thumb_G_1494406058791.jpg"></image>
+                </navigator>
+            </view>
+        </view>
+        <view class="select-bottom">
+            <navigator url="list/list">
+                <image src="http://image.lingshi.com/data/afficheimg/1503471340677595949.jpg"></image>
+            </navigator>
+        </view>
+    </view>
+    <view class="newest">
+        <view class="newest-title"><text>最近新品</text></view>
+        <view class="newest-box">
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201705/thumb_img/12030_thumb_G_1495696877341.jpg"></image>
+                    <view class="newest-text"><text>骥洋卤香鹌鹑蛋</text></view>
+                    <view class="newest-text"><text>￥11.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201705/thumb_img/12012_thumb_G_1494406058791.jpg"></image>
+                    <view class="newest-text"><text>悠乐吸乳酸</text></view>
+                    <view class="newest-text"><text>￥ 5.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201706/thumb_img/12139_thumb_G_1498100617713.jpg"></image>
+                    <view class="newest-text"><text>牧谣牛肉五香味</text></view>
+                    <view class="newest-text"><text>￥ 8.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201807/thumb_img/13154_thumb_G_1530672542170.jpg"></image>
+                    <view class="newest-text"><text>阿伯仔脆鸭肠脆卤</text></view>
+                    <view class="newest-text"><text>￥ 12.20</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201804/thumb_img/12171_thumb_G_1522735297177.jpg"></image>
+                    <view class="newest-text"><text>尊海薯条*250g</text></view>
+                    <view class="newest-text"><text>￥ 17.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201806/thumb_img/12123_thumb_G_1528968112540.jpg"></image>
+                    <view class="newest-text"><text>正龙香酥小黄鱼</text></view>
+                    <view class="newest-text"><text>￥ 22.30</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201807/thumb_img/13164_thumb_G_1531403891156.jpg"></image>
+                    <view class="newest-text"><text>力诚香辣味仿蟹柳</text></view>
+                    <view class="newest-text"><text>￥ 25.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201810/thumb_img/12031_thumb_G_1539323330197.jpg"></image>
+                    <view class="newest-text"><text>骥洋小鸡腿*500g</text></view>
+                    <view class="newest-text"><text>￥ 32.50</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201707/thumb_img/12102_thumb_G_1500510652717.jpg"></image>
+                    <view class="newest-text"><text>阿婆家的麻糬</text></view>
+                    <view class="newest-text"><text>￥13.00</text></view>
+            </view>
+            <view class="newest-list">
+                    <image src="http://image.lingshi.com/images/201706/thumb_img/12096_thumb_G_1498113037989.jpg"></image>
+                    <view class="newest-text"><text>修文鸭里脊*250g</text></view>
+                    <view class="newest-text"><text>￥18.00</text></view>
+            </view>
+        </view>
+    </view>
+</view>
