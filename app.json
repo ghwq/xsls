@@ -1,0 +1,52 @@
+{
+  "pages": [
+      "page/component/index",
+      "page/component/category/category",
+      "page/component/cart/cart",
+      "page/component/user/user",
+      "page/component/address/address",
+      "page/component/orders/orders",
+      "page/component/details/details"
+  ],
+  "window": {
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "祥顺零食",
+    "navigationBarBackgroundColor": "#20f1a5",
+    "backgroundColor": "#20f1a5",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#20f1a5",
+    "borderStyle": "#f5f5f5",
+    "backgroundColor": "#f5f5f5",
+    "list": [{
+      "pagePath": "page/component/index",
+      "iconPath": "image/2.png",
+      "selectedIconPath": "image/2-1.png",
+      "text": "主页"
+    }, {
+      "pagePath": "page/component/category/category",
+      "iconPath": "image/4.png",
+      "selectedIconPath": "image/4-1.png",
+      "text": "分类"
+    }, {
+      "pagePath": "page/component/cart/cart",
+      "iconPath": "image/3.png",
+      "selectedIconPath": "image/3-1.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "page/component/user/user",
+      "iconPath": "image/1.png",
+      "selectedIconPath": "image/1-1.png",
+      "text": "我的"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
